@@ -4,8 +4,8 @@ Methods for Creating folder structure
 
 #GlobalProperties
 $RootFolders = @{
-    PictureFolderRoot = "$env:OneDriveConsumer/Pictures/"
-    DocumentFolderRoot = "$env:OneDriveConsumer/Documents/"
+    PictureFolderRoot = "$env:POWERSHELLSCRIPTSTORE/Pictures/"
+    DocumentFolderRoot = "$env:POWERSHELLSCRIPTSTORE/Documents/"
 }
 
 function Initialize-FolderOrganizationDependancies{
